@@ -41,11 +41,10 @@ ActiveRecord::Schema.define(version: 20170507032656) do
 
   create_table "ratings", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.string   "rating"
-    t.datetime "timestamp"
-    t.integer  "user_id"
-    t.integer  "movie_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer  "user_id"
+    t.integer  "movie_id"
     t.index ["movie_id"], name: "index_ratings_on_movie_id", using: :btree
     t.index ["user_id"], name: "index_ratings_on_user_id", using: :btree
   end
