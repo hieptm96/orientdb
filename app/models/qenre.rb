@@ -1,0 +1,2 @@
+class Qenre < ApplicationRecord
+end
