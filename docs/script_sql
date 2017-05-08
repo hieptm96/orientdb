@@ -1,0 +1,92 @@
+//movies
+
+-- LOAD DATA LOCAL INFILE '/home/minh-lilo/data/done/movie_1_8.csv'
+--  INTO TABLE movies FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n'(id, title);
+-- LOAD DATA LOCAL INFILE '/home/minh-lilo/data/done/movie_1_9.csv'
+--  INTO TABLE movies FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n'(id, title);
+-- LOAD DATA LOCAL INFILE '/home/minh-lilo/data/done/movie_1_10.csv'
+--  INTO TABLE movies FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n'(id, title);
+
+
+//job
+
+LOAD DATA LOCAL INFILE '/home/minh-lilo/data/done/job.csv'
+  INTO TABLE occupations FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n'(id, title);
+
+//user
+
+LOAD DATA LOCAL INFILE '/home/minh-lilo/data/done/user_1_1.csv'
+  INTO TABLE users FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n'(id, gender, age, zipcode, occupation_id);
+LOAD DATA LOCAL INFILE '/home/minh-lilo/data/done/user_1_2.csv'
+  INTO TABLE users FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n'(id, gender, age, zipcode, occupation_id);
+
+
+LOAD DATA LOCAL INFILE '/home/minh-lilo/data/done/user_1_3.csv'
+  INTO TABLE users FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n'(id, gender, age, zipcode, occupation_id);
+LOAD DATA LOCAL INFILE '/home/minh-lilo/data/done/user_1_4.csv'
+  INTO TABLE users FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n'(id, gender, age, zipcode, occupation_id);
+
+
+LOAD DATA LOCAL INFILE '/home/minh-lilo/data/done/user_1_5.csv'
+  INTO TABLE users FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n'(id, gender, age, zipcode, occupation_id);
+LOAD DATA LOCAL INFILE '/home/minh-lilo/data/done/user_1_6.csv'
+  INTO TABLE users FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n'(id, gender, age, zipcode, occupation_id);
+
+
+LOAD DATA LOCAL INFILE '/home/minh-lilo/data/done/user_1_7.csv'
+  INTO TABLE users FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n'(id, gender, age, zipcode, occupation_id);
+LOAD DATA LOCAL INFILE '/home/minh-lilo/data/done/user_1_8.csv'
+  INTO TABLE users FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n'(id, gender, age, zipcode, occupation_id);
+
+
+LOAD DATA LOCAL INFILE '/home/minh-lilo/data/done/user_1_9.csv'
+  INTO TABLE users FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n'(id, gender, age, zipcode, occupation_id);
+LOAD DATA LOCAL INFILE '/home/minh-lilo/data/done/user_1_10.csv'
+  INTO TABLE users FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n'(id, gender, age, zipcode, occupation_id);
+
+
+  LOAD DATA LOCAL INFILE '/home/minh-lilo/data/done/user_1_11.csv'
+  INTO TABLE users FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n'(id, gender, age, zipcode, occupation_id);
+LOAD DATA LOCAL INFILE '/home/minh-lilo/data/done/user_1_12.csv'
+  INTO TABLE users FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n'(id, gender, age, zipcode, occupation_id);
+
+
+LOAD DATA LOCAL INFILE '/home/minh-lilo/data/done/user_1_13.csv'
+  INTO TABLE users FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n'(id, gender, age, zipcode, occupation_id);
+LOAD DATA LOCAL INFILE '/home/minh-lilo/data/done/user_1_14.csv'
+  INTO TABLE users FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n'(id, gender, age, zipcode, occupation_id);
+
+
+LOAD DATA LOCAL INFILE '/home/minh-lilo/data/done/user_1_15.csv'
+  INTO TABLE users FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n'(id, gender, age, zipcode, occupation_id);
+LOAD DATA LOCAL INFILE '/home/minh-lilo/data/done/user_1_16.csv'
+  INTO TABLE users FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n'(id, gender, age, zipcode, occupation_id);
+
+
+LOAD DATA LOCAL INFILE '/home/minh-lilo/data/done/user_1_17.csv'
+  INTO TABLE users FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n'(id, gender, age, zipcode, occupation_id);
+LOAD DATA LOCAL INFILE '/home/minh-lilo/data/done/user_1_18.csv'
+  INTO TABLE users FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n'(id, gender, age, zipcode, occupation_id);
+
+
+LOAD DATA LOCAL INFILE '/home/minh-lilo/data/done/user_1_19.csv'
+  INTO TABLE users FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n'(id, gender, age, zipcode, occupation_id);
+LOAD DATA LOCAL INFILE '/home/minh-lilo/data/done/user_1_20.csv'
+  INTO TABLE users FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n'(id, gender, age, zipcode, occupation_id);
+
+
+//movies_qenres
+
+LOAD DATA LOCAL INFILE '/home/minh-lilo/data/done/movies_qenres_16.csv'
+  INTO TABLE movies_qenres FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n'(id, qenre_id, movie_id);
+LOAD DATA LOCAL INFILE '/home/minh-lilo/data/done/movies_qenres_17.csv'
+  INTO TABLE movies_qenres FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n'(id, qenre_id, movie_id);
+LOAD DATA LOCAL INFILE '/home/minh-lilo/data/done/movies_qenres_18.csv'
+  INTO TABLE movies_qenres FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n'(id, qenre_id, movie_id);
+LOAD DATA LOCAL INFILE '/home/minh-lilo/data/done/movies_qenres_19.csv'
+  INTO TABLE movies_qenres FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n'(id, qenre_id, movie_id);
+LOAD DATA LOCAL INFILE '/home/minh-lilo/data/done/movies_qenres_20.csv'
+  INTO TABLE movies_qenres FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n'(id, qenre_id, movie_id);
+
+
+// rating
