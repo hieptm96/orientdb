@@ -5,3 +5,13 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+# 1000000.times do
+#   Occupation.create(title: Faker::Company.name)
+# end
+require "csv"
+CSV.open("/home/minh-lilo/school/orientdb/docs/user.csv", "wb") do |csv|
+  1000000.times do
+    csv << Faker::Company.name
+  end
+end

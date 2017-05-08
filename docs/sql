@@ -1,0 +1,23 @@
+--movies
+
+ LOAD DATA LOCAL INFILE '/home/minh-lilo/data/done/movie_1_8.csv'
+  INTO TABLE movies FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n'(id, title);
+
+--occupations
+
+LOAD DATA LOCAL INFILE '/home/minh-lilo/data/done/occupations.csv'
+  INTO TABLE occupations FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n'(id, title);
+
+--user
+
+LOAD DATA LOCAL INFILE '/home/minh-lilo/data/done/user_1_1.csv'
+  INTO TABLE users FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n'(id, gender, age, zipcode, occupation_id);
+
+--movies_qenres
+
+LOAD DATA LOCAL INFILE '/home/minh-lilo/data/done/movies_qenres_16.csv'
+  INTO TABLE movies_qenres FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n'(id, qenre_id, movie_id);
+
+--rating
+LOAD DATA LOCAL INFILE '/home/minh-lilo/data/data_csv/ratings_6/rating_3.csv'
+  INTO TABLE ratings FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n'(id, rating, user_id, movie_id);
