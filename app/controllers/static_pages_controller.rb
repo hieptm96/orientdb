@@ -110,18 +110,18 @@ class StaticPagesController < ApplicationController
 
     #rating
 
-    1.upto(50) do |a|
-      CSV.open("/home/minh-lilo/data/done/rating_#{a}.csv", "wb") do |csv|
-        1.upto(1000000) do |i|
-          id = (a-1)*1000000 + i
-          rating = Random.rand(5)
-          user_id = 1 + Random.rand(19999999)
-          movie_id = 1 + Random.rand(9999999)
-          csv << [id, rating, user_id, movie_id]
-        end
-      end
-    end
-
+    # 1.upto(50) do |a|
+    #   CSV.open("/home/minh-lilo/data/done/rating_#{a}.csv", "wb") do |csv|
+    #     1.upto(1000000) do |i|
+    #       id = (a-1)*1000000 + i
+    #       rating = Random.rand(5)
+    #       user_id = 1 + Random.rand(19999999)
+    #       movie_id = 1 + Random.rand(9999999)
+    #       csv << [id, rating, user_id, movie_id]
+    #     end
+    #   end
+    # end
+    @test = User.count
 
 
   end
