@@ -14,6 +14,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
 gem 'materialize-sass'
 gem 'rack-mini-profiler'
+gem "orientdb4r"
 
 gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
